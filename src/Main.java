@@ -34,7 +34,7 @@ public class Main {
         System.out.println("Места осталось " + leftWeight + "кг!");
 
         productsWeight = productsWeight * 2;
-        System.out.println("Теп ерь вес продуктов " + productsWeight);
+        System.out.println("Теперь вес продуктов " + productsWeight);
 
         leftWeight = LiftingCapacity + StuffWeight - productsWeight;
         System.out.println("Теперь места осталось " + leftWeight + "кг!");
